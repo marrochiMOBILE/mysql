@@ -1,0 +1,11 @@
+//mencari awalan A 
+SELECT * FROM tbl_like WHERE nama LIKE 'a%';
+
+//mencari akhiran O
+SELECT * FROM tbl_like WHERE nama LIKE '%o';
+
+//mencari yang mengandung J
+SELECT * FROM tbl_like WHERE nama LIKE '%j%';
+
+//mencari yang mengandung K dan N 
+SELECT * FROM tbl_like WHERE nama LIKE '%k%n%';
