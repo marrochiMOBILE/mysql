@@ -1,0 +1,30 @@
+//untuk menampilkan semua yang ada didalam tebel
+select * from (nama tebel);
+
+//untuk menampilkan beberapa field dalam tabel
+SELECT (field1), (field2) FROM (nama tabel);
+
+//untuk mengubah nama field
+SELECT (field1) AS (nama baru field1) , (field2)   FROM (nama tabel);
+
+//untuk menampilkan yg kurang dari
+SELECT * FROM (tabel) WHERE (field1) < (statement);
+
+//untuk menampilkan yg lebih dari
+SELECT * FROM (tabel) WHERE (field1) > (statement);
+
+//untuk menampilkan sama dengan
+SELECT * FROM (tabel) WHERE (field1) = (statement);
+
+//untuk menampilkan  tidak sama dengan
+SELECT * FROM (tabel) WHERE (field1) != (statement);
+
+//untuk menampilkan dan persyaratn yg wajib dipenuhi menggunakan AND
+SELECT * FROM (tabel) WHERE (field1)='(statement1)' AND (field2)='(statement2)';
+
+//untuk menampilkan dan persyaratn yg salah satunya wajib dipenuhi menggunakan AND
+SELECT * FROM (tabel) WHERE (field1)='(statement1)' AND (field2)='(statement2)';
+
+//untuk menampilkan and bersama dengan or
+SELECT * FROM (tabel) WHERE (field1)=1 AND (field2)=9 OR (field2)=2 ;
+
