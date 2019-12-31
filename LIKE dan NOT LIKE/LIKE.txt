@@ -9,3 +9,7 @@ SELECT * FROM tbl_like WHERE nama LIKE '%j%';
 
 //mencari yang mengandung K dan N 
 SELECT * FROM tbl_like WHERE nama LIKE '%k%n%';
+
+//NOT LIKE
+//mencari awalan A 
+SELECT * FROM tbl_like WHERE nama NOT LIKE 'a%';

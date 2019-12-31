@@ -1,0 +1,6 @@
+//MENAMPILKAN beberapa keterangan yang diperbolehkan
+SELECT * FROM tbl_in WHERE kota IN ('tanggerang','jakarta');
+
+
+//MENAMPILKAN beberapa keterangan yang tidak diperbolehkan
+SELECT * FROM tbl_in WHERE kota NOT IN ('tanggerang','jakarta');
