@@ -21,7 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `database-aritmatika`
 --
-
+CREATE DATABASE database_aritmatika;
+USE database_aritmatika;
 DELIMITER $$
 --
 -- Prosedur
