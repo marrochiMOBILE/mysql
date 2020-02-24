@@ -22,6 +22,8 @@ SET time_zone = "+00:00";
 -- Database: `copy_struktur_tabel`
 --
 
+create database copy_struktur_tabel;
+use copy_struktur_tabel;
 DELIMITER $$
 --
 -- Prosedur

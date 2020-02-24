@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 
 --
 -- Database: `copy_isi_table`
+create database copy_isi_table;
+use copy_isi_table;
 --
 
 DELIMITER $$
